@@ -3,8 +3,8 @@
   height: 408px;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 1px solid #f3f3f3;
-  background-color: #fff;
+  border: 1px solid $color-border-light;
+  background-color: $color-white;
   padding: 32px 16px 16px;
 
   &__media {
@@ -89,13 +89,13 @@
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #fff;
+    color: $color-white;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
       border: 1px solid $button-color;
-      background: #fff;
+      background: $color-white;
 
       color: $button-color;
     }
